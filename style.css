@@ -1,0 +1,110 @@
+body{
+    background-image: url(./img/392784.jpg  );
+    background-size: cover;
+    flex-wrap: nowrap;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: ;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* Приховати повзунок */
+}
+.block-8 {
+}
+.block-8__box {
+    max-width: 1050px;
+    margin: 40px auto 80px auto;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    justify-content: space-between;
+    border-radius: 20px;
+    background: #8263d000;
+}
+.box__img {
+}
+.box__info {
+    width: 425px;
+    height: 272px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+.box__info-title {
+    color: var(--White, #fff);
+    font-family: Ubuntu;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; 
+    text-transform: capitalize;
+}
+.box__info-txt {
+    color: var(--White, #fff);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    text-transform: capitalize;
+    margin: 10px 0 40px 0;
+}
+.box__info-input {
+    width: 425px;
+    height: 60px;
+    border-radius: 20px;
+    background: var(--Text, #fff);
+    color: var(--Background, #2b2b2b);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    padding: 16px 0px 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box__info-input button {
+    width: 211px;
+    height: 60px;
+    padding: 0px 50px;
+    border-radius: 20px;
+    background: var(--Call-to-Action, #ffffff);
+    color: #000000;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    }
+.img{
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+}
+.button-block-8{
+    border: 2px solid #000000;
+    
+}
+
+@media screen and (max-width: 991px){
+    .block-8{
+        display: flex;
+        
+    }
+    .block-8__box{
+        flex-direction: column;
+    }
+}
